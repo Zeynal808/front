@@ -1,0 +1,40 @@
+body
+{
+    height: 4000px;
+    border: 1px solid red;
+}
+.container
+{
+    width: 70%;
+    margin: 0 auto;
+}
+.fixed-box
+{
+    position: fixed;
+    background-color: #ccc;
+    width: 100px;
+    left: 0;
+    top: 0;
+    padding: 60px;
+    z-index: 3;
+}
+.middle-box
+{
+    position: relative;
+    width: 90%;
+    background-color: #efefef;
+    padding: 100px;
+}
+.absolute-box
+{
+    position: absolute;
+    right:-30px;
+    bottom: 0;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #ccc;
+}
+.esas
+{
+    height: 1000px;
+}
